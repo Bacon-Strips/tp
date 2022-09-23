@@ -187,11 +187,11 @@ public class EditCommand extends Command {
         public Optional<Address> getAddress() {
             return Optional.ofNullable(address);
         }
-        
+
         public void setRemark(Remark remark) {
             this.remark = remark;
         }
-        
+
         public Optional<Remark> getRemark() {
             return Optional.ofNullable(remark);
         }

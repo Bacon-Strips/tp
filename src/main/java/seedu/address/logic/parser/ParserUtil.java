@@ -122,7 +122,7 @@ public class ParserUtil {
         }
         return tagSet;
     }
-    
+
     public static Remark parseRemark(String remark) throws ParseException {
         requireNonNull(remark);
         String trimmedRemark = remark.trim();
