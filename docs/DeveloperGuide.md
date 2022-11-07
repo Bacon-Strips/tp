@@ -335,11 +335,9 @@ Step 4. The user now un-mark a `Trip` and make it incomplete using the `unmark` 
         trips are sorted by completion and the indexes of uncompleted trips are shifted before the completed trips.
 
 Step 5. The user now decides that he wants to sort his list of trips, and he does so using the `sort` command. 
-        The `SortTripsCommandParser` firstly parses the command for parameters, which may contain the factor to sort by
-        and whether to sort in reverse order. Subsequently, the trips are sorted based on the factor the user supplied.
-
-The following sequence diagram shows how the sorting mechanism works:
-
+        The `SortTripsCommandParser` firstly parses the command for optional parameters, which may contain the factor 
+        to sort by and whether to sort in reverse order. Subsequently, the trips are sorted based on the parameters the 
+        user supplied.
 
 --------------------------------------------------------------------------------------------------------------------
 
